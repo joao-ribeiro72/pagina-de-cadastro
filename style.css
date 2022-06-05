@@ -1,0 +1,121 @@
+body {
+  width: 100vw;
+  height: 100vw;
+  background: url('fundo.png');
+  background-size: cover;
+}
+
+.ali {
+  text-align: center;
+}
+
+.rob {
+font-family: 'Roboto', sans-serif;
+}
+
+
+.u {
+  text-decoration: underline;
+}
+
+.conf {
+  font-size: 20px;
+}
+
+.link{
+  cursor:pointer;
+}
+input {
+  width: 210px;
+  margin: 15px;
+}
+
+p {
+  margin: 15px;
+  color: white;
+}
+
+.icep {
+  width: 150px;
+}
+
+#data {
+  width: 150px;
+}
+
+.incomp {
+  width: 60px;
+}
+
+.bege {
+  color: #E89482;
+}
+
+.marrom {
+  color: #63271A;
+}
+
+@media only screen and (max-width: 375px) {
+  .icep {
+  width: 130px;
+}
+  p {
+  margin: 10px;
+  color: white;
+  font-size: 10pxpx;
+}
+  
+#idata {
+  width: 130px;
+}
+
+.alin {
+  text-align: center;
+}
+.usopriv {
+  font-size: 13px;
+  text-align: left;
+}
+
+.conf {
+  font-size: 18px;
+}
+
+}
+
+@media only screen and (max-width: 465px) {
+  h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .conf {
+    font-size: 16px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
