@@ -7,24 +7,6 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 
-init()
-function init(){
-  var inNome = document.getElementById("nome")
-  var inCpf = document.getElementById("cpf")
-  var inSenha = document.getElementById("senha")
-  var inRsenha = document.getElementById("rsenha")
-  var inEmail = document.getElementById("email")
-  var inData = document.getElementById("data")
-  var inEstado = document.getElementById("estado")
-  var inCidade = document.getElementById("cidade")
-  var inBairro = document.getElementById("bairro")
-  var inCep = document.getElementById("cep")
-  var inRua = document.getElementById("rua")
-  var inN = document.getElementById("n")
-  var inComplemento = document.getElementById("complemento")
-  
-}
-
 function salvar(){
   var nome = document.getElementById("nome").value 
   var cpf = document.getElementById("cpf").value
